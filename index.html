@@ -1,11 +1,622 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio 2.0</title>
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- style css file -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body>
+    <!------------------------- header section -------------------------->
+    <header class="active">
+      <a href="#" class="logo">TONMOY BISWAS.</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav>
+        <a href="#" class="menu-btn active">Home</a>
+        <a href="#" class="menu-btn">Services</a>
+        <a href="#" class="menu-btn">Resume</a>
+        <a href="#" class="menu-btn">Projects</a>
+        <a href="#" class="menu-btn">Contact</a>
+      </nav>
+    </header>
+
+    <!------------------------ bars background ------------------------->
+    <div class="bars-box active">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
+
+    <!------------------------ home  section ---------------------------->
+    <section class="home active">
+      <!-- home details -->
+      <div class="home-details">
+        <h1>Tonmoy Biswas</h1>
+        <h2>
+          I'm a
+          <span style="--i: 4" data-tex="Web Developer">Web Developer</span>
+          <span style="--i: 3" data-tex="Front End Developer"
+            >Front End Developer</span
+          >
+          <span style="--i: 2" data-tex="Tailwind Expert">Tailwind Expert</span>
+          <span style="--i: 1" data-tex="React & Next.js Expert"
+            >React & Next.js Expart</span
+          >
+        </h2>
+        <p>
+          I am Tonmoy Biswas, a dedicated web developer with a passion for
+          creating dynamic and responsive websites. With expertise front-end
+          technologies, I strive to deliver seamless user experiences. My
+          journey in web development has equipped me with the skills to tackle
+          complex challenges and bring innovative ideas to life.
+        </p>
+        <div class="btn-sci">
+          <a href="" download="" class="btn">Download CV</a>
+          <div class="sci">
+            <a href="" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="" target="_blank"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- home image -->
+      <div class="home-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="./image/developer.jpeg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------ services section ------------------------>
+    <section class="services">
+      <h2 class="headding">My <span>Services</span></h2>
+      <div class="services-container">
+        <!-- box-1 -->
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-code-alt"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            Building responsive and dynamic websites using modern front-end
+            technologies like, libraries, frameworks, tools etc.
+          </p>
+        </div>
+        <!-- box-2 -->
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bxs-paint"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>
+            Building responsive and modern website designs with creativity,
+            focus, user experience, accessibility, scalability, speed,
+            aesthetics, and real-world impact.
+          </p>
+        </div>
+        <!-- box-3 -->
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-devices"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Responsive Design</h3>
+          <p>
+            Creating responsive design focused websites with modern layouts,
+            clean code, smooth interactions, fast performance, accessibility,
+            scalability, and strong user experience.
+          </p>
+        </div>
+        <!-- box-4 -->
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-palette"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>
+            Creating impactful graphic design with modern visuals, strong
+            branding, balanced layouts, creative typography, color harmony,
+            clarity, consistency, and user-focused aesthetics.
+          </p>
+        </div>
+        <!-- box-5 -->
+        <div class="services-box">
+          <div class="icon">
+            <p>X</p>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>ABC</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
+            temporibus!.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------ resume section --------------------------->
+    <section class="resume">
+      <div class="resume-container">
+        <!-- buttons box -->
+        <div class="resume-box">
+          <h2>Why Hire Me</h2>
+          <p class="desc">
+            I am a passionate Frontend Developer focused on building responsive,
+            modern, and user-friendly web interfaces with clean code and strong
+            visual design.
+          </p>
+          <button class="resume-btn active">Experience</button>
+          <button class="resume-btn">Education</button>
+          <button class="resume-btn">Skills</button>
+          <button class="resume-btn">About Me</button>
+        </div>
+
+        <!-- details box -->
+        <div class="resume-box">
+          <!-- resume details 1 -->
+          <div class="resume-details experience active">
+            <h2 class="headding">My <span>Experience</span></h2>
+            <p class="desc">
+              I have hands-on experience in frontend development and technical
+              roles, working with real-world projects, quality control, and
+              computer operations.
+            </p>
+            <!-- details items -->
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2025 Sept - 2025 Dec</p>
+                <h3>Frontend Developer</h3>
+                <p class="company">BDCalling Academy</p>
+                <p>
+                  Completed a three-month industrial attachment on MERN Stack
+                  frontend development.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2024 - 2024</p>
+                <h3>QC Operator</h3>
+                <p class="company">Salextra</p>
+                <p>
+                  Ensured product quality, accuracy etc by following strict QCS
+                  and reporting issues effectively.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2020 - 2021</p>
+                <h3>Computer Operator</h3>
+                <p class="company">National Homoeo Hall</p>
+                <p>
+                  Handled data entry, documentation, and computer-based office
+                  tasks with responsibility.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">... - ...</p>
+                <h3>ABC</h3>
+                <p class="company">XYZ</p>
+                <p>
+                  Lorem ipsum dolor sit amet conse ctetur, adipisicing elit.
+                  Cupiditate, nobis.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">... - ...</p>
+                <h3>ABC</h3>
+                <p class="company">XYZ</p>
+                <p>
+                  Lorem ipsum dolor sit amet conse ctetur, adipisicing elit.
+                  Cupiditate, nobis.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">... - ...</p>
+                <h3>ABC</h3>
+                <p class="company">XYZ</p>
+                <p>
+                  Lorem ipsum dolor sit amet conse ctetur, adipisicing elit.
+                  Cupiditate, nobis.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">... - ...</p>
+                <h3>ABC</h3>
+                <p class="company">XYZ</p>
+                <p>
+                  Lorem ipsum dolor sit amet conse ctetur, adipisicing elit.
+                  Cupiditate, nobis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- resume details 2 -->
+          <div class="resume-details education">
+            <h2 class="headding">My <span>Education</span></h2>
+            <p class="desc">
+              My academic background in Computer Science and Technology has
+              strengthened my problem-solving skills and technical foundation.
+            </p>
+            <div class="resume-list">
+              <!-- resume items -->
+              <div class="resume-item">
+                <p class="year"></p>
+                <h3></h3>
+                <p class="company"></p>
+                <p>
+                  Studying core subjects including programming, web development,
+                  and computer fundamentals.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2020</p>
+                <h3>HSC</h3>
+                <p class="company"></p>
+                <p>
+                  Completed Higher Secondary Certificate (HSC) in Science from a
+                  recognized educational institution
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2018</p>
+                <h3>SSC</h3>
+                <p class="company">Shaoraid High School</p>
+                <p>
+                  Completed Secondary School Certificate (SSC) in Science from a
+                  recognized educational institution.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2025</p>
+                <h3>Industrial Attachtment</h3>
+                <p class="company">BDCalling Academy</p>
+                <p>
+                  Completed a three-month MERN Stack frontend development course
+                  from BD Calling Academy.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">...</p>
+                <h3>ABC</h3>
+                <p class="company">Narsingdi Polytechnic Institute</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+                  totam.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">...</p>
+                <h3>ABC</h3>
+                <p class="company">Narsingdi Polytechnic Institute</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+                  totam.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">...</p>
+                <h3>ABC</h3>
+                <p class="company">Narsingdi Polytechnic Institute</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+                  totam.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- resume details 3 -->
+          <div class="resume-details skills">
+            <h2 class="headding">My <span>Skills</span></h2>
+            <p class="desc">
+              I work with modern frontend technologies and tools to build
+              scalable, responsive, and visually appealing web applications.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <i class="bx bxl-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-css3"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-javascript"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-react"></i>
+                <span>React</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-nodejs"></i>
+                <span>Node.js</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-tailwind-css"></i>
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-mongodb"></i>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- resume details 4 -->
+          <div class="resume-details about">
+            <h2 class="headding">About <span>Me</span></h2>
+            <p class="desc">
+              I am a motivated Frontend Developer from Bangladesh, passionate
+              about web design, clean code, and continuous learning.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p>Name<span>Tonmoy Biswas</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Gender<span>Male</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Age<span>23 Years Old</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Status<span>Unmarried</span></p>
+              </div>
+              <div class="resume-item">
+                <p>City<span>Dhaka</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Nationality<span>Bangladeshi</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Experience<span>2+ years</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Freelance<span>Abailable</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Phon<span>(+88) 01722998188</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Email<span>tonmoybiswas13900@gmail.com</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Languages<span>English, Bangla</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------ projects section ------------------------->
+    <section class="projects">
+      <h2 class="headding">Latest <span>Projects</span></h2>
+      <div class="project-container">
+        <!-- priject desc -->
+        <div class="project-box">
+          <!-- project desc -->
+          <div class="project-details active">
+            <p class="numb">01</p>
+            <h3>React Project</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+              placeat laborum unde quisquam minima ipsum! Lorem, ipsum dolor.
+            </p>
+            <div class="tech">
+              <p>React.js, TailWind, CSS</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
+            </div>
+          </div>
+          <div class="project-details">
+            <p class="numb">02</p>
+            <h3>FrontEnd Project</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+              placeat laborum unde quisquam minima ipsum! Lorem, ipsum dolor.
+            </p>
+            <div class="tech">
+              <p>HTML5, TailWind</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
+            </div>
+          </div>
+          <div class="project-details">
+            <p class="numb">03</p>
+            <h3>FullStake Project</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+              placeat laborum unde quisquam minima ipsum! Lorem, ipsum dolor.
+            </p>
+            <div class="tech">
+              <p>HTML5, Tailwind, CSS3</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
+            </div>
+          </div>
+          <div class="project-details">
+            <p class="numb">04</p>
+            <h3>FrontEnd Project</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+              placeat laborum unde quisquam minima ipsum! Lorem, ipsum dolor.
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3, Java-Script</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
+            </div>
+          </div>
+          <div class="project-details">
+            <p class="numb">05</p>
+            <h3>Next.Js Project</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+              placeat laborum unde quisquam minima ipsum! Lorem, ipsum dolor.
+            </p>
+            <div class="tech">
+              <p>Next.js, CSS3</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
+            </div>
+          </div>
+          <div class="project-details">
+            <p class="numb">06</p>
+            <h3>FrontEnd Project</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+              placeat laborum unde quisquam minima ipsum! Lorem, ipsum dolor.
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i> <span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i> <span>Github Repository</span></a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- image carousel -->
+        <div class="project-box">
+          <div class="project-carousel">
+            <div class="img-slide">
+              <div class="img-item">
+                <img src="" />
+              </div>
+              <div class="img-item">
+                <img src="" />
+              </div>
+              <div class="img-item">
+                <img src="" />
+              </div>
+              <div class="img-item">
+                <img src="" />
+              </div>
+              <div class="img-item">
+                <img src="" />
+              </div>
+              <div class="img-item">
+                <img src="" />
+              </div>
+            </div>
+          </div>
+          <div class="navigation">
+            <button class="arrow-left disabled">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="arrow-right">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------ contact section ------------------------->
+    <section class="contact">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Lets Work <span>Together</span></h2>
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, porro
+            accusamus. Nisi praesentium non ab sunt quidem odio expedita illo.
+          </p>
+          <div class="contact-details">
+            <i class="bx bxs-phone"></i>
+            <div class="detail">
+              <p>Phone</p>
+              <p>(+88) 01722998188</p>
+            </div>
+          </div>
+          <div class="contact-details">
+            <i class="bx bxs-envelope"></i>
+            <div class="detail">
+              <p>Email</p>
+              <p>tonmoybiswas13900@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-details">
+            <i class="bx bxs-map"></i>
+            <div class="detail">
+              <p>Address</p>
+              <p>1206, Street Dhaka</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <form action="">
+            <h2 class="headding">Contact <span>Me..!</span></h2>
+            <div class="feild-box">
+              <input type="text" placeholder="Full Name" id="1" required />
+              <input type="email" placeholder="Email Address" id="2" required />
+              <input type="text" placeholder="Phone Number" id="3" required />
+              <input type="text" placeholder="Subject" id="4" required />
+              <textarea placeholder="Your Message" id="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripting file -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
